@@ -4,6 +4,12 @@
     "type": "wordpress-plugin",
     "keywords": ["wordpress", "plugin"],
     "homepage": "https://github.com/BenjaminMedia/wp-focal-point",
+    "repositories":[
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
     "authors": [
         {
             "name": "Bonnier Publications",
