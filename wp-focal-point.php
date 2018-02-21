@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WP Focal Point
- * Version: 1.0.0
+ * Version: 1.0.1
  * Plugin URI: https://github.com/BenjaminMedia/wp-focal-point
  * Description: This plugin allows setting a focal point on an image
  * Author: Bonnier
@@ -17,8 +17,6 @@ if (!defined('ABSPATH')) {
 spl_autoload_register(function ($className) {
     $namespace = 'Bonnier\\WP\\FocalPoint\\';
     if (str_contains($className, $namespace)) {
-        // Convert `Bonnier\WP\OAuth\Providers\CommonLoginProvider`
-        // to `__DIR__/src/Providers/CommonLoginProvider`
         $className = str_replace([$namespace, '\\'], [__DIR__ . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR], $className);
         
         $file = $className . '.php';
