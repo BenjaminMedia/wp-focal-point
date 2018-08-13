@@ -4,12 +4,6 @@
     "type": "wordpress-plugin",
     "keywords": ["wordpress", "plugin"],
     "homepage": "https://github.com/BenjaminMedia/wp-focal-point",
-    "repositories":[
-        {
-            "type": "composer",
-            "url": "https://wpackagist.org"
-        }
-    ],
     "authors": [
         {
             "name": "Bonnier Publications",
@@ -17,6 +11,9 @@
             "homepage": "http://bonnierpublications.com"
         }
     ],
+    "require-dev": {
+        "johnpbloch/wordpress": "^4.9"
+    },
     "autoload": {
         "psr-4": {
             "Bonnier\\WP\\FocalPoint\\": "src/"
