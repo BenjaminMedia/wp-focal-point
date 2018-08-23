@@ -61,7 +61,7 @@ class FocalPoint
 
     public function registerScripts($hook)
     {
-        if ('post.php' !== $hook || !is_attachment()) {
+        if ('post.php' !== $hook || !wp_attachment_is_image()) {
             return;
         }
 
