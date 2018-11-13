@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WP Focal Point
- * Version: 1.1.1
+ * Version: 1.2.0
  * Plugin URI: https://github.com/BenjaminMedia/wp-focal-point
  * Description: This plugin allows setting a focal point on an image
  * Author: Bonnier
