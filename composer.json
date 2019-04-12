@@ -3,6 +3,7 @@
     "description": "This plugin allows setting a focal point on an image",
     "type": "wordpress-plugin",
     "keywords": ["wordpress", "plugin"],
+    "license": "MIT",
     "homepage": "https://github.com/BenjaminMedia/wp-focal-point",
     "authors": [
         {
